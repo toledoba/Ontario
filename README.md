@@ -1,194 +1,272 @@
-# Ontario
-Ontario: A Federated SPARQL Query Processor over Semantic Data Lakes
+# Ontario Demo
 
-# Using Ontario
-Check the `demo` folder for dockerized examples.
+To demonstrate Ontario SDL in action, we use the following setting:
 
+### Data Sources
+- DrugBank: `RDB-MySQL`
+- KEGG: `RDF-Virtuoso`
+- ChEBI: `TSV-LocalFile`
 
-## Mapping file
-`chebi-tsv-mapping.ttl`
+Demo folder contains:
 
-```text
-@prefix rr: <http://www.w3.org/ns/r2rml#> .
-@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
-@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix chebi: <http://www.ebi.ac.uk/chebi/> .
-@prefix : <http://tib.de/ontario/mapping#> .
+- `./configureations/` - contains `datasources.json` and `config.json`. Note: `config.json` is created by the RDF-MT creation script. (see below)
+- `./data.tar.gz` and `./data2.tar.gz`  - contains  sample datasets for `RDB`, `rdf` and `tsv` files.
+- `./mappings` - contains sample mapping files for raw files in `./data`, i.e., for MySQL data and TSV files
+- `./queries` - contains sample queries 
+- `./docker-compose.yml` - file for creating three docker containers: `ontario`, `drugbankrdb`, and `keggrdf`
 
-:chebi_compound
-  	rml:logicalSource [
-                rml:source "compounds.tsv";
-                rml:referenceFormulation ql:TSV;
-                rml:iterator "*"
-  			 ];
-  	rr:subjectMap [
-        rr:template "http://www.ebi.ac.uk/chebi/{ID}";
-        rr:class chebi:Compound
-  	];  	
-    rr:predicateObjectMap [
-      rr:predicate chebi:accession;
-      rr:objectMap [
-        rml:reference "CHEBI_ACCESSION"
-      ]
-    ];
-    rr:predicateObjectMap [
-      rr:predicate rdfs:label;
-      rr:objectMap [
-        rml:reference "NAME"
-      ]
-    ].
- ```
- 
-## Configurations
-To generate the RDF Molecule Templates, one should prepare a list of data sources with their mapping files (if any) as follows:
-
-`datasources.json`
-
-```json
-[
-      {
-        "name": "ChEBI-TSV",
-        "ID": "http://iasis.eu/datasource/chebi-tsv",
-        "url": "/home/user/data/ChEBI-TSV",
-        "params": {
-                "spark.driver.cores": "4",
-                "spark.executor.cores": "4",
-                "spark.cores.max": "6",
-                "spark.default.parallelism": "4",
-                "spark.executor.memory": "6g",
-                "spark.driver.memory": "12g",
-                "spark.driver.maxResultSize": "8g",
-                "spark.python.worker.memory": "10g",
-                "spark.local.dir": "/tmp"
-        },
-        "type": "LOCAL_TSV",
-        "mappings": ["/home/user/git/Ontario/mappings/ChEBI/chebi-tsv-mapping.ttl"]
-      }
-  ]
+### Extract `./data.tar.gz`
+```bash
+tar -xvf data.tar.gz
+tar -xvf data2.tar.gz
 ```
 
-Data Source `type` value can be one of the following:
-
-```buildoutcfg
-    SPARQL_Endpoint    
-    MySQL
-    LOCAL_CSV
-    LOCAL_TSV
-    LOCAL_JSON
-    LOCAL_XML
-    HADOOP_CSV
-    HADOOP_TSV
-    HADOOP_JSON
-    HADOOP_XML
-    MongoDB
-    Neo4j
+### Create the Semantic Data Lake
+To create the containers, run the following:
+```bash
+ docker-compose up -d 
 ```
 
-Then run the following:
+Check if the containers are started:
+```bash
+CONTAINER ID        IMAGE                      COMMAND                  CREATED             STATUS              PORTS                                             NAMES
+76cc25df04f7        kemele/ontario:0.3         "/Ontario/start_spar…"   3 hours ago         3 hours ago         0.0.0.0:5001->5000/tcp                            ontario
+1e5cd4b6cf47        mysql:5.7.16               "docker-entrypoint.s…"   3 hours ago         Up 3 hours          0.0.0.0:9000->3306/tcp                            drugbankrdb
+2256c8ff7089        kemele/virtuoso:7-stable   "/bin/bash /virtuoso…"   3 hours ago         Up 3 hours          0.0.0.0:1116->1111/tcp, 0.0.0.0:11385->8890/tcp   keggrdf
+```
+
+Wait for some seconds until the data is completely loaded:
+Check logs of virtuoso:
+```bash
+....
+17:32:22 Checkpoint started
+17:32:22 Checkpoint finished, log reused
+17:32:22 HTTP/WebDAV server online at 8890
+17:32:22 Server online at 1111 (pid 103)
+```
+Check logs of MySQl:
 
 ```bash
-    python3 scripts/create_rdfmts.py -s datasources.json -o config.json
-    
+....
+2019-08-14T17:32:48.816395Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-08-14T17:32:48.816616Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.16'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
 ```
-Then the RDF-MTs will be generated either by contacting the data sources or from the RML mappings.
- The content of the `config.json` file contains the following information:
+
+### Create RDF Molecule Templates (RDF-MT) - `myconfig.json`
+After datasets are loaded, run the following script to create configuration file:
+
+```bash
+ docker exec -t ontario /Ontario/scripts/create_rdfmts.py -s /configurations/datasources.json -o /configurations/myconfig.json 
+```
+
+The above command creates the RDF-MT based source descriptions stored in `/configurations/myconfig.json`. 
+Make sure the file exists by running the following command:
+```bash
+docker exec -t ontario ls /configurations
+```
+
+The excerpt from `myconfig.json` looks like as follows:
 
 ```json
 {
-  "templates": [ {  
-        "rootType": "http://tib.eu/ontology/chebi/Compound",
-        "datasources": [
-                      {
-                        "datasource": "http://iasis.eu/datasource/chebi-tsv",
-                        "predicates": [
-                          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-                          "http://www.w3.org/2000/01/rdf-schema#label",
-                          "http://tib.eu/ontology/chebi/accession"
-                          ]
-                      }
-                    ],
-        "predicates": [
-                      {
-                        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-                        "range": []
-                      },
-                      {
-                        "predicate": "http://tib.eu/ontology/chebi/accession",
-                        "range": []
-                      },
-                      {
-                        "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
-                        "range": []
-                      }
-                    ]
-     }
+  "templates": [
+    {
+      "rootType": "http://bio2rdf.org/ns/kegg#Drug",
+      "predicates": [
+        {
+          "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "range": []          
+        },
+        {
+          "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+          "range": []
+        },
+        {
+          "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+          "range": [
+            "http://bio2rdf.org/ns/kegg#Drug"
+          ]
+        },
+        ... 
+      ],
+      "linkedTo": [
+        "http://bio2rdf.org/ns/kegg#Drug"
+      ],
+      "datasources": [
+        {
+          "datasource": "KEGG",
+          "predicates": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "http://www.w3.org/2002/07/owl#sameAs",
+            "http://bio2rdf.org/ns/bio2rdf#url",
+            "http://purl.org/dc/elements/1.1/identifier",
+            "http://purl.org/dc/elements/1.1/title",
+            "http://bio2rdf.org/ns/bio2rdf#formula",
+            "http://bio2rdf.org/ns/bio2rdf#mass",
+            "http://bio2rdf.org/ns/bio2rdf#synonym",
+            "http://bio2rdf.org/ns/bio2rdf#urlImage",
+            "http://bio2rdf.org/ns/bio2rdf#xRef"
+          ]
+        }
+      ]
+    },
+    {
+      "rootType": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drug_interactions",
+      "predicates": [
+        {
+          "predicate": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionDrug2",
+          "range": []
+        },
+        {
+          "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+          "range": []
+        },
+         ... 
+      ],
+      "linkedTo": [],
+      "datasources": [
+        {
+          "datasource": "Drugbank",
+          "predicates": [
+            "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionDrug2",
+            "http://www.w3.org/2000/01/rdf-schema#label",
+            "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionDrug1",
+            "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/text"
+          ]
+        }
+      ]
+    },
+    {
+      "rootType": "http://bio2rdf.org/ns/chebi#Compound",
+      "predicates": [
+        {
+          "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "range": []
+        },
+        {
+          "predicate": "http://bio2rdf.org/ns/chebi#is_substituent_group_from",
+          "range": []
+        },
+        {
+          "predicate": "http://bio2rdf.org/ns/chebi#has_parent_hydride",
+          "range": []
+        },
+        {
+          "predicate": "http://bio2rdf.org/ns/chebi#has_role",
+          "range": []
+        },
+        {
+          "predicate": "http://bio2rdf.org/ns/chebi#is_tautomer_of",
+          "range": []
+        },        
+        ...
+      ],
+      "linkedTo": [],
+      "datasources": [
+        {
+          "datasource": "http://tib.eu/chebi-tsv",
+          "predicates": [
+            "http://www.w3.org/2000/01/rdf-schema#comment",
+            "http://bio2rdf.org/ns/chebi#is_substituent_group_from",
+            "http://bio2rdf.org/ns/chebi#has_parent_hydride",
+            "http://bio2rdf.org/ns/chebi#has_role",
+            "http://bio2rdf.org/ns/chebi#is_tautomer_of",
+            "http://bio2rdf.org/ns/bio2rdf#synonym",
+            "http://bio2rdf.org/ns/chebi#is_conjugate_base_of",
+            "http://bio2rdf.org/ns/bio2rdf#formula",
+            "http://bio2rdf.org/ns/chebi#has_part",
+            "http://bio2rdf.org/ns/chebi#iupacName",
+            "http://bio2rdf.org/ns/chebi#is_a",
+            "http://bio2rdf.org/ns/chebi#has_functional_parent",
+            "http://bio2rdf.org/ns/bio2rdf#xRef",
+            "http://bio2rdf.org/ns/chebi#is_conjugate_acid_of",
+            "http://bio2rdf.org/ns/bio2rdf#url",
+            "http://bio2rdf.org/ns/bio2rdf#inchi"
+          ]
+        }
+      ]
+    }
   ],
   "datasources": [
-      {
-        "name": "ChEBI-TSV",
-        "ID": "http://iasis.eu/datasource/chebi-tsv",
-        "url": "/home/user/data/ChEBI-TSV",
-        "params": {
-                "spark.driver.cores": "4",
-                "spark.executor.cores": "4",
-                "spark.cores.max": "6",
-                "spark.default.parallelism": "4",
-                "spark.executor.memory": "6g",
-                "spark.driver.memory": "12g",
-                "spark.driver.maxResultSize": "8g",
-                "spark.python.worker.memory": "10g",
-                "spark.local.dir": "/tmp"
-        },
-        "type": "LOCAL_TSV",
-        "mappings": ["/home/user/git/Ontario/mappings/ChEBI/chebi-tsv-mapping.ttl"]
-  }
+    {
+      "name": "Drugbank",
+      "ID": "Drugbank",
+      "url": "drugbankrdb:3306",
+      "params": {
+        "username": "root",
+        "password": "1234"
+      },
+      "type": "MySQL",
+      "mappings": [
+        "/mappings/mysql/drugbank/drug_interactions.ttl",
+        "/mappings/mysql/drugbank/drugs.ttl",
+        "/mappings/mysql/drugbank/enzymes.ttl",
+        "/mappings/mysql/drugbank/references.ttl",
+        "/mappings/mysql/drugbank/targets.ttl"
+      ]
+    },
+    {
+      "name": "KEGG",
+      "ID": "KEGG",
+      "url": "http://keggrdf:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
+    {
+      "name": "ChEBI-TSV",
+      "ID": "http://tib.eu/chebi-tsv",
+      "url": "/data/tsv",
+      "params": {
+        "spark.driver.cores": "4",
+        "spark.executor.cores": "4",
+        "spark.cores.max": "6",
+        "spark.default.parallelism": "4",
+        "spark.executor.memory": "6g",
+        "spark.driver.memory": "6g",
+        "spark.driver.maxResultSize": "6g",
+        "spark.python.worker.memory": "4g",
+        "spark.local.dir": "/tmp"
+      },
+      "type": "LOCAL_TSV",
+      "mappings": [
+        "/mappings/tsv/chebi/Compound.ttl"
+      ]
+    }
   ]
 }
 ```
 
-
-## Running Ontario
-
-Ontario has been developed in python (3.x) and depends on some python packages to communicate with different databases and services.
-To install the required packages run:
+You might see the following warning (not an error!):
+```bash
+WARNING: Couldn't create 'parsetab'. [Errno 20] Not a directory: '/usr/local/lib/python3.6/dist-packages/ontario-0.3-py3.6.egg/ontario/sparql/parser/parsetab.py'
+```
+### Execute a queries - `command-line`
 
 ```bash
-    pip3 install -r requirements.txt
+docker exec -t ontario /Ontario/scripts/runExperiment.py -c /configurations/myconfig.json -q /queries/simpleQueries/SQ2 -r True 
 ```
+Where `-r` indicates whether to print results (rows) or not.
+The following queries are available for testing:
 
-Install Ontario:
+- `/queries/simpleQueries/SQ2`
+- `/queries/simpleQueries/SQ3`
+- `/queries/simpleQueries/SQ4`
+- `/queries/simpleQueries/SQ5`
+- `/queries/complexqueries/CQ1`
+- `/queries/complexqueries/CQ2`
+
+Summary of execution (and raw results) will be printed on your terminal.
+You can inspect `ontario.log` file as: `$ docker exec -t ontario less /Ontario/ontario.log` .
+
+
+### Execute multiple queries
 ```bash
-    python3 setup.py install
+# docker exec -t ontario /Ontario/scripts/runOntarioExp.sh  [query_folder] [config_file] [result_file_name] [errors_file_name] [planonlyTrueorFalse] [printResultsTrueorFalse]
+docker exec -it ontario /Ontario/scripts/runOntarioExp.sh /queries/simpleQueries /configurations/myconfig.json /results/result.tsv /results/error.txt False False
 ```
-
-
-To run queries:
-
-```bash
-    ./runExperiment.py -q path/to/sparqlquery.txt -c path/to/config.json -p False
-```
-
-If you want to just see the plans, set `-p True`. 
-
-To run multiple queries in a folder:
-
-```bash
-    ./runOntarioExp.sh  /path/to/queriefolder/  path/to/config.json outputname.tsv  errorlog.txt False
-```
-
-If you want to just see the plans, set the last argument `True`
-
-# Creating Docker image
-```bash
-docker build -t ontario:0.3 .
-```
-
-# Publication:
-Kemele M. Endris, Philipp D. Rohde, Maria-Esther Vidal, and Sören Auer. "Ontario: Federated Query Processing against a Semantic Data Lake." DEXA 2019 - Database and Expert Systems Applications. Lecture Notes in Computer Science. Springer, Cham (2019).
-
-# License
-This work is licensed under [GNU/GPL v2](https://www.gnu.org/licenses/gpl-2.0.html).
+Summary of execution will be saved in `/results/result.tsv`. 
+You can inspect it as: `$ docker exec -t ontario cat /results/result.tsv` ,
+OR you can find the file in main directory of Ontario (since `\results`, `\configurations`, and others are bounded as volumes)
