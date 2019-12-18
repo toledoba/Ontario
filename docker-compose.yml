@@ -10,8 +10,6 @@ services:
       - ./configurations:/configurations
       - ./queries:/queries
       - ./results:/results
-      - ./data/tsv:/data/tsv
-      - ./data/json:/data/json
       - ./data/csv:/data/csv
     ports:
       - "5001:5000"

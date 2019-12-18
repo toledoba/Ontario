@@ -1,7 +1,7 @@
 [{
       "name": "GTFS-MYSQL",
       "ID": "gtfs",
-      "url": "drugbankrdb:3306",
+      "url": "rdbstore:3306",
         "params": {
         "username": "root",
         "password": "oeg"
