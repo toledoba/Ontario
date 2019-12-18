@@ -20,10 +20,10 @@ services:
     networks:
       - osdl
 
-  rdfstore:
+  rdfstore1:
     image: kemele/virtuoso:7-stable
-    hostname: kegg
-    container_name: keggrdf
+    hostname: gtfsrdf
+    container_name: rdfstore
     domainname: sdl
     volumes:
       - ./data/rdf/gtfs-rdf:/data/toLoad
@@ -33,10 +33,23 @@ services:
     networks:
       - osdl
 
+  rdfstore2:
+    image: kemele/virtuoso:7-stable
+    hostname: gtfsrdf5
+    container_name: rdfstore5
+    domainname: sdl
+    volumes:
+      - ./data/rdf/gtfs-rdf1:/data/toLoad
+    ports:
+      - "11386:8890"
+      - "1117:1111"
+    networks:
+      - osdl
+
   rdbstore:
     image: mysql:5.7.16
-    hostname: drugbank
-    container_name: drugbankrdb
+    hostname: gtfsmysql
+    container_name: rdbstore
     domainname: sdl
     volumes:
       - ./data/csv/gtfs-rdf:/data/csv/gtfs-rdf

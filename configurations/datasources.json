@@ -12,7 +12,15 @@
     {
       "name": "gtfs-rdf",
       "ID": "gtfs-rdf",
-      "url": "http://keggrdf:8890/sparql",
+      "url": "http://rdfstore:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
+    {
+      "name": "gtfs5-rdf",
+      "ID": "gtfs-rdf1",
+      "url": "http://rdfstore5:8890/sparql",
       "params": {},
       "type": "SPARQL_Endpoint",
       "mappings": []
