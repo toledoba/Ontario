@@ -9,6 +9,14 @@
       "type": "MySQL",
       "mappings": ["/mappings/mysql/gtfs-rdb.rml.ttl"]
     },
+    {
+      "name": "gtfs-rdf",
+      "ID": "gtfs-rdf",
+      "url": "http://keggrdf:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
    {
      "name": "GTFS-CSV",
      "ID": "gtfs-csv",

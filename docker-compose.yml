@@ -26,7 +26,7 @@ services:
     container_name: keggrdf
     domainname: sdl
     volumes:
-      - ./data/rdf/KEGG:/data/toLoad
+      - ./data/rdf/gtfs-rdf:/data/toLoad
     ports:
       - "11385:8890"
       - "1116:1111"
@@ -39,7 +39,7 @@ services:
     container_name: drugbankrdb
     domainname: sdl
     volumes:
-      - ./data/csv/gtfs:/data/csv/gtfs
+      - ./data/csv/gtfs-rdf:/data/csv/gtfs-rdf
       - ./data/tsv/drugbank:/data/tsv/drugbank
       - ./data/rdb/volumes/drugbank_mysql:/var/lib/mysql
       - ./data/rdb/drugbank:/docker-entrypoint-initdb.d/
