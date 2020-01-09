@@ -10,7 +10,7 @@ Demo folder contains:
 
 - `./configureations/` - contains `datasources.json` and `config.json`. Note: `config.json` is created by the RDF-MT creation script. (see below)
 - `./data.zip` - contains  sample datasets for `rdf` files.
-- `./mappings` - contains sample mapping files for raw files in `./data`, i.e., for MySQL data and TSV files
+- `./mappings` - contains sample mapping files for raw files in `./data`, i.e., for MySQL data and csv files
 - `./queries` - contains sample queries 
 - `./docker-compose.yml` - file for creating three docker containers: `ontario`, `drugbankrdb`, and `keggrdf`
 
