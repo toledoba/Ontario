@@ -44,23 +44,22 @@ services:
     networks:
       - osdl
 
-  rdbstore:
-    image: mysql:5.7.16
-    hostname: gtfsmysql
-    container_name: rdbstore
-    domainname: sdl
-    volumes:
-      - ./data/csv/gtfs-rdf:/data/csv/gtfs-rdf
-      - ./data/tsv/drugbank:/data/tsv/drugbank
-      - ./data/rdb/volumes/drugbank_mysql:/var/lib/mysql
-      - ./data/rdb/drugbank:/docker-entrypoint-initdb.d/
-    environment:
-      MYSQL_ROOT_PASSWORD: oeg
-    ports:
-      - "9000:3306"
-    networks:
-      - osdl
-
+#  rdbstore:
+#    image: mysql:5.7.16
+#    hostname: gtfsmysql
+#    container_name: rdbstore
+#    domainname: sdl
+#    volumes:
+#      - ./data/csv/gtfs-rdf:/data/csv/gtfs-rdf
+#      - ./data/tsv/drugbank:/data/tsv/drugbank
+#      - ./data/rdb/volumes/drugbank_mysql:/var/lib/mysql
+#      - ./data/rdb/drugbank:/docker-entrypoint-initdb.d/
+#    environment:
+#      MYSQL_ROOT_PASSWORD: oeg
+#    ports:
+#      - "9000:3306"
+#    networks:
+#      - osdl
 
 networks:
   osdl:
