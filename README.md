@@ -25,14 +25,6 @@ To create the containers, run the following:
  docker-compose up -d 
 ```
 
-Check if the containers are started:
-```bash
-CONTAINER ID        IMAGE                      COMMAND                  CREATED             STATUS              PORTS                                             NAMES
-76cc25df04f7        kemele/ontario:0.3         "/Ontario/start_spar…"   3 hours ago         3 hours ago         0.0.0.0:5001->5000/tcp                            ontario
-1e5cd4b6cf47        mysql:5.7.16               "docker-entrypoint.s…"   3 hours ago         Up 3 hours          0.0.0.0:9000->3306/tcp                            drugbankrdb
-2256c8ff7089        kemele/virtuoso:7-stable   "/bin/bash /virtuoso…"   3 hours ago         Up 3 hours          0.0.0.0:1116->1111/tcp, 0.0.0.0:11385->8890/tcp   keggrdf
-```
-
 Wait for some seconds until the data is completely loaded:
 Check logs of virtuoso:
 ```bash
