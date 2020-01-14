@@ -20,7 +20,7 @@
     {
       "name": "gtfs5-rdf",
       "ID": "gtfs-rdf1",
-      "url": "http://rdfstore5:8890/sparql",
+      "url": "http://gtfs-bench.linkeddata.es/sparql",
       "params": {},
       "type": "SPARQL_Endpoint",
       "mappings": []
