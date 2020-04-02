@@ -1,15 +1,4 @@
 [{
-      "name": "GTFS-MYSQL",
-      "ID": "gtfs",
-      "url": "rdbstore:3306",
-        "params": {
-        "username": "root",
-        "password": "oeg"
-      },
-      "type": "MySQL",
-      "mappings": ["/mappings/mysql/gtfs-rdb.rml.ttl"]
-    },
-    {
       "name": "gtfs-rdf",
       "ID": "gtfs-rdf",
       "url": "http://rdfstore:8890/sparql",
@@ -20,27 +9,9 @@
     {
       "name": "gtfs5-rdf",
       "ID": "gtfs-rdf1",
-      "url": "http://gtfs-bench.linkeddata.es/sparql",
+      "url": "http://rdfstore5:8890/sparql",
       "params": {},
       "type": "SPARQL_Endpoint",
       "mappings": []
-    },
-   {
-     "name": "GTFS-CSV",
-     "ID": "gtfs-csv",
-     "url": "/data/csv/gtfs",
-     "params": {
-        "spark.driver.cores": "4",
-        "spark.executor.cores": "4",
-        "spark.cores.max": "6",
-        "spark.default.parallelism": "4",
-        "spark.executor.memory": "6g",
-        "spark.driver.memory": "6g",
-        "spark.driver.maxResultSize": "6g",
-        "spark.python.worker.memory": "4g",
-        "spark.local.dir": "/tmp"
-     },
-    "type": "LOCAL_CSV",
-    "mappings": ["/mappings/csv/gtfs-csv.rml.ttl"]
-   }
+    }
 ]
