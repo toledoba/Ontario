@@ -1,4 +1,14 @@
 #!/bin/bash
-#docker exec -t ontario /Ontario/scripts/create_rdfmts.py -s /configurations/datasources.json -o /configurations/myconfig.json
-docker exec -t ontario /Ontario/scripts/runExperiment.py -c /configurations/config.json -q /queries/q3.rq -r True
-#docker exec -t ontario /Ontario/scripts/runExperiment.py -c /configurations/myconfig.json -q /queries/complexqueries/SQ2 -r True
+curl -G 'http://localhost:5001/sparql' \
+     --data-urlencode query='
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX org: <http://www.w3.org/ns/org#>
+SELECT ?dataset  WHERE {
+?DatasetURI a dcat:Catalog .
+?DatasetURI dcat:dataset ?dataset .
+?DatasetURI dct:publisher ?crtm .
+?crtm a org:Organization.
+?crtm foaf:name "Consorcio Regional de Transporte de Madrid".
+}'
