@@ -19,13 +19,14 @@ services:
     networks:
       - osdl
 
-  rdfstore1:
+  spain:
     image: kemele/virtuoso:7-stable
-    hostname: gtfsrdf
-    container_name: rdfstore
+    hostname: spainrdf
+    container_name: spain
     domainname: sdl
     volumes:
-      - ./data/rdf/gtfs-rdf:/data/toLoad
+#      - ./data/rdf/gtfs-rdf:/data/toLoad
+      - ./data/rdf/spain:/data/toLoad
     ports:
       - "11385:8890"
       - "1116:1111"
@@ -33,13 +34,14 @@ services:
     networks:
       - osdl
 
-  rdfstore2:
+  belgium:
     image: kemele/virtuoso:7-stable
-    hostname: gtfsrdf5
-    container_name: rdfstore5
+    hostname: belgiumrdf
+    container_name: belgium
     domainname: sdl
     volumes:
-      - ./data/rdf/gtfs-rdf1:/data/toLoad
+#      - ./data/rdf/gtfs-rdf1:/data/toLoad
+      - ./data/rdf/belgium:/data/toLoad
     ports:
       - "11386:8890"
       - "1117:1111"
