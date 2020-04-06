@@ -1,15 +1,15 @@
 [{
-      "name": "gtfs-rdf",
-      "ID": "gtfs-rdf",
-      "url": "http://rdfstore:8890/sparql",
+      "name": "spain-rdf",
+      "ID": "spain-rdf",
+      "url": "http://spain:8890/sparql",
       "params": {},
       "type": "SPARQL_Endpoint",
       "mappings": []
     },
     {
-      "name": "gtfs5-rdf",
-      "ID": "gtfs-rdf1",
-      "url": "http://rdfstore5:8890/sparql",
+      "name": "belgium-rdf",
+      "ID": "belgium-rdf",
+      "url": "http://belgium:8890/sparql",
       "params": {},
       "type": "SPARQL_Endpoint",
       "mappings": []
