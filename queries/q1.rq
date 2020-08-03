@@ -1,0 +1,13 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#> 
+PREFIX dct: <http://purl.org/dc/terms/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX org: <http://www.w3.org/ns/org#> 
+
+SELECT ?dataset  WHERE {
+?DatasetURI a dcat:Catalog . 
+?DatasetURI dcat:dataset ?dataset . 
+?DatasetURI dct:publisher ?crtm . 
+?crtm a org:Organization. 
+?crtm foaf:name "Consorcio Regional de Transporte de Madrid". 
+
+}
