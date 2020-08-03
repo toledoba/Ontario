@@ -1,0 +1,6 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#> 
+PREFIX dc: <http://purl.org/dc/terms/> 
+SELECT distinct ?Publisher WHERE { 
+?DatasetURI a dcat:Dataset . 
+?DatasetURI dc:publisher ?Publisher. 
+}
