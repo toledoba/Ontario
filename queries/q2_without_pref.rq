@@ -1,0 +1,13 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+
+SELECT *
+WHERE {
+?d a dcat:Dataset .
+?c a dcat:Catalog .
+?c dcat:dataset ?d.
+?d dct:qualFreq ?qf.
+?d dct:metadataDate ?md.
+}
+#SKYLINE OF ?qf MIN, ?md MAX, ?c DIFF
