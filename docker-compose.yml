@@ -2,8 +2,8 @@ version: "2"
 services:
   ontario:
     image: kemele/ontario:0.3
-    hostname: ontario
-    container_name: ontario
+    hostname: ontario2
+    container_name: ontario2
     domainname: sdl
     volumes:
       - ./mappings:/mappings
@@ -12,7 +12,7 @@ services:
       - ./results:/results
       - ./data/csv:/data/csv
     ports:
-      - "5001:5000"
+      - "6001:6000"
     environment:
       - CONFIG_FILE=/configurations/config.json
     restart: always
