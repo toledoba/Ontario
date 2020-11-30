@@ -1,7 +1,7 @@
 version: "2"
 services:
   ontario:
-    image: kemele/ontario:0.3
+    image: kemele/ontario:0.5
     hostname: ontario2
     container_name: ontario2
     domainname: sdl
@@ -12,7 +12,7 @@ services:
       - ./results:/results
       - ./data/csv:/data/csv
     ports:
-      - "6001:6000"
+      - "6001:5000"
     environment:
       - CONFIG_FILE=/configurations/config.json
     restart: always
@@ -35,7 +35,7 @@ services:
   spain2:
     image: kemele/virtuoso:7-stable
     hostname: spain2rdf
-    container_name: spain2
+    container_name: com1
     domainname: sdl
     volumes:
       - ./data/rdf/spain:/data/toLoad
@@ -48,7 +48,7 @@ services:
   spain3:
     image: kemele/virtuoso:7-stable
     hostname: spain3rdf
-    container_name: spain3
+    container_name: com2
     domainname: sdl
     volumes:
       - ./data/rdf/spain:/data/toLoad
@@ -57,11 +57,11 @@ services:
       - "1120:1111"
     restart: always
     networks:
-      - osdlOnt  
+      - osdlOnt
   spain4:
     image: kemele/virtuoso:7-stable
     hostname: spain4rdf
-    container_name: spain4
+    container_name: com3
     domainname: sdl
     volumes:
       - ./data/rdf/spain:/data/toLoad
@@ -70,11 +70,11 @@ services:
       - "1121:1111"
     restart: always
     networks:
-      - osdlOnt  
+      - osdlOnt
   spain5:
     image: kemele/virtuoso:7-stable
     hostname: spain5rdf
-    container_name: spain5
+    container_name: com4
     domainname: sdl
     volumes:
       - ./data/rdf/spain:/data/toLoad
@@ -87,7 +87,7 @@ services:
   spain6:
     image: kemele/virtuoso:7-stable
     hostname: spain6rdf
-    container_name: spain6
+    container_name: com5
     domainname: sdl
     volumes:
       - ./data/rdf/spain:/data/toLoad
@@ -96,7 +96,7 @@ services:
       - "1123:1111"
     restart: always
     networks:
-      - osdlOnt      
+      - osdlOnt
 
 
   belgium1:
@@ -115,7 +115,7 @@ services:
   belgium2:
     image: kemele/virtuoso:7-stable
     hostname: belgium2rdf
-    container_name: belgium2
+    container_name: com6
     domainname: sdl
     volumes:
       - ./data/rdf/belgium:/data/toLoad
@@ -128,7 +128,7 @@ services:
   belgium3:
     image: kemele/virtuoso:7-stable
     hostname: belgium3rdf
-    container_name: belgium3
+    container_name: com7
     domainname: sdl
     volumes:
       - ./data/rdf/belgium:/data/toLoad
@@ -141,7 +141,7 @@ services:
   belgium4:
     image: kemele/virtuoso:7-stable
     hostname: belgium4rdf
-    container_name: belgium4
+    container_name: com8
     domainname: sdl
     volumes:
       - ./data/rdf/belgium:/data/toLoad
@@ -154,7 +154,7 @@ services:
   belgium5:
     image: kemele/virtuoso:7-stable
     hostname: belgium5rdf
-    container_name: belgium5
+    container_name: com9
     domainname: sdl
     volumes:
       - ./data/rdf/belgium:/data/toLoad
@@ -167,7 +167,7 @@ services:
   belgium6:
     image: kemele/virtuoso:7-stable
     hostname: belgium6rdf
-    container_name: belgium6
+    container_name: com10
     domainname: sdl
     volumes:
       - ./data/rdf/belgium:/data/toLoad
@@ -176,7 +176,7 @@ services:
       - "1129:1111"
     restart: always
     networks:
-      - osdlOnt                        
+      - osdlOnt
 networks:
   osdlOnt:
     external: false
