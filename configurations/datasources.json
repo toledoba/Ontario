@@ -1,15 +1,94 @@
 [{
-      "name": "spain-rdf",
-      "ID": "spain-rdf",
-      "url": "http://spain:8890/sparql",
+      "name": "spain-rdf1",
+      "ID": "spain-rdf1",
+      "url": "http://spain1:8890/sparql",
       "params": {},
       "type": "SPARQL_Endpoint",
       "mappings": []
     },
     {
-      "name": "belgium-rdf",
-      "ID": "belgium-rdf",
-      "url": "http://belgium:8890/sparql",
+      "name": "spain-rdf2",
+      "ID": "spain-rdf2",
+      "url": "http://spain2:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
+    {
+      "name": "spain-rdf3",
+      "ID": "spain-rdf3",
+      "url": "http://spain3:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },{
+      "name": "spain-rdf4",
+      "ID": "spain-rdf4",
+      "url": "http://spain4:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
+    {
+      "name": "spain-rdf5",
+      "ID": "spain-rdf5",
+      "url": "http://spain5:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
+    {
+      "name": "spain-rdf6",
+      "ID": "spain-rdf4",
+      "url": "http://spain6:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
+    {
+      "name": "belgium-rdf1",
+      "ID": "belgium-rdf1",
+      "url": "http://belgium1:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
+    {
+      "name": "belgium-rdf2",
+      "ID": "belgium-rdf2",
+      "url": "http://belgium2:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
+    {
+      "name": "belgium-rdf3",
+      "ID": "belgium-rdf3",
+      "url": "http://belgium3:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
+    {
+      "name": "belgium-rdf4",
+      "ID": "belgium-rdf4",
+      "url": "http://belgium4:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
+    {
+      "name": "belgium-rdf5",
+      "ID": "belgium-rdf5",
+      "url": "http://belgium5:8890/sparql",
+      "params": {},
+      "type": "SPARQL_Endpoint",
+      "mappings": []
+    },
+    {
+      "name": "belgium-rdf6",
+      "ID": "belgium-rdf6",
+      "url": "http://belgium6:8890/sparql",
       "params": {},
       "type": "SPARQL_Endpoint",
       "mappings": []
