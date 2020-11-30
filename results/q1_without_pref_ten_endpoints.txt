@@ -1,0 +1,2557 @@
+{
+  "execTime": 0.2692582607269287,
+  "firstResult": 0.2530074119567871,
+  "querytriples": [],
+  "result": [
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-05"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "265"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-05"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "265"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-02-05"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "992"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-05"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "265"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-11"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "963"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-02-05"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "992"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurban-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-08-10"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "375"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-02-05"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "992"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurbanbus-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-08-07"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "492"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-11"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "963"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurbanbus-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-08"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "752"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-11"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "963"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-03-21"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "998"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurban-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-08-10"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "375"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-05"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "265"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurban-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-08-10"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "375"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-04"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "869"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurbanbus-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-08-07"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "492"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-02-05"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "992"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurbanbus-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-08-07"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "492"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-24"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "900"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurbanbus-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-08"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "752"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-11"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "963"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurbanbus-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-08"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "752"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-29"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "127"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-03-21"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "998"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurban-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-08-10"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "375"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-03-21"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "998"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-06-11"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "961"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-04"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "869"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurbanbus-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-08-07"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "492"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-04"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "869"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-26"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "984"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-24"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "900"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurbanbus-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-08"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "752"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-24"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "900"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-05-09"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "352"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-29"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "127"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-03-21"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "998"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-29"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "127"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-01-07"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "689"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-06-11"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "961"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-04"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "869"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-06-11"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "961"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-05-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "32"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-26"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "984"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-24"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "900"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-26"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "984"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-27"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "379"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-05-09"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "352"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-29"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "127"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-05-09"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "352"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-25"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "576"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-01-07"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "689"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-06-11"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "961"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-01-07"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "689"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-stations"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "897"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-05-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "32"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-26"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "984"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-05-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "32"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "219"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-27"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "379"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-05-09"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "352"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-27"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "379"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-03-22"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "624"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-25"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "576"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-01-07"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "689"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-25"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "576"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-08"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "868"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-stations"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "897"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-05-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "32"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-stations"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "897"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-01"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "914"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "219"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-27"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "379"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "219"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-02-03"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "239"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-03-22"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "624"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-25"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "576"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-03-22"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "624"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-stations"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-30"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "470"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-08"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "868"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-stations"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "897"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-08"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "868"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-03-01"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "219"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-01"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "914"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "219"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-01"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "914"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-02-23"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "30"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-02-03"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "239"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-03-22"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "624"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-02-03"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "239"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-09-20"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "9"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-05"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "265"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-stations"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-30"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "470"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-02-05"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "992"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-08"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "868"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/emt-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-11"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "963"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-stations"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-30"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "470"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurban-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-08-10"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "375"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-01"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "914"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurbanbus-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-08-07"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "492"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-03-01"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "219"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/interurbanbus-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-08"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "752"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-02-03"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "239"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-03-21"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "998"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-03-01"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "219"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-04"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "869"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-stations"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-30"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "470"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-24"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "900"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-02-23"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "30"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-29"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "127"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-03-01"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "219"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-06-11"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "961"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-02-23"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "30"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/metro-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-26"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "984"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-02-23"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "30"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-05-09"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "352"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-09-20"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "9"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-01-07"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "689"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-09-20"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "9"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-05-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "32"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-09-20"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "9"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-04-27"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "379"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-25"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "576"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/train-stations"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "897"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-access"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "219"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-03-22"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "624"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-halls"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-07-08"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "868"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-01"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "914"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-platforms"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2020-02-03"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "239"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/tram-stations"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-01-30"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "470"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-gtfs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-03-01"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "219"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-lines"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-02-23"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "30"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "http://crtm.linkeddata.es/metadata/catalogo/urbanbus-stops"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-09-20"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "9"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#delijn"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-22"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "266"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#sncb-nmbs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-04-20"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "506"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#stib-mivb"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-15"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "680"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#tec"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "844"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#delijn"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-22"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "266"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#delijn"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-22"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "266"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#sncb-nmbs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-04-20"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "506"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#sncb-nmbs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-04-20"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "506"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#stib-mivb"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-15"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "680"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#tec"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "844"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#delijn"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-22"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "266"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#sncb-nmbs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-04-20"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "506"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#stib-mivb"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-15"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "680"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#tec"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "844"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#delijn"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-22"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "266"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#delijn"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-22"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "266"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#sncb-nmbs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-04-20"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "506"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#sncb-nmbs"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-04-20"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "506"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#stib-mivb"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-15"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "680"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#stib-mivb"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-15"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "680"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#tec"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "844"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#tec"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "844"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#stib-mivb"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-07-15"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "680"
+      }
+    },
+    {
+      "d": {
+        "type": "uri",
+        "value": "https://gtfs.irail.be/metadata#tec"
+      },
+      "md": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#date",
+        "type": "typed-literal",
+        "value": "2019-11-16"
+      },
+      "qf": {
+        "datatype": "http://www.w3.org/2001/XMLSchema#int",
+        "type": "typed-literal",
+        "value": "844"
+      }
+    }
+  ],
+  "totalRows": 159,
+  "vars": [
+    "md",
+    "d",
+    "qf"
+  ]
+}
